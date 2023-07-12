@@ -4,7 +4,7 @@
 
 #pragma warning(disable:4996) //to allow for the use of scanf
 
-int main(){
+int main(void){
 	unsigned char cont = 'y';
 	while(cont == 'y'){ 
 		appStart();
@@ -13,6 +13,8 @@ int main(){
 			scanf(" %[^\n]%*c", &cont);
 		} while (cont != 'y' && cont != 'n');
 		}
+	exit(0);
+	return 0;
 	}
 
 void appStart(void) {
