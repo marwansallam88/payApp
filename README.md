@@ -13,3 +13,5 @@ The project was divided into six main tasks:
 
 Key aspects:
 
+• Designed and developed a modular payment application capable of securely storing, processing, and transmitting cardholder data in accordance with industry standards.
+
